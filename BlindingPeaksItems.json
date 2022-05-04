@@ -296,7 +296,7 @@
 			"curse": true,
 			"weight": 1,
 	   "bonusAc": "+1",
-	   "bonusSavingThrow": "+1"
+	   "bonusSavingThrow": "+1",
 			"entries": [
 	   		"You gain a +1 bonus to AC and saving throws while you wear this cloak.",				
 				{
@@ -306,7 +306,7 @@
 						"This cloak is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the cloak, keeping it within reach at all times.",
 	   					"..." 
 					]
-				},				
+				}				
 			]
 	  },
 	  
