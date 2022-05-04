@@ -56,7 +56,7 @@
       "type": "RUNE",
       "entries": [
 	"A stocky piece of obsidian, roughly resembling a feather in shape, inscribed with {@italic \"Darkmans Flash\"}, written in Common.",
-	"Apply to a spellcasting focus"
+	"Apply to a spellcasting focus",
 	"Whenever a creature you can see within 60 feet of you succeeds on a saving throw against a spell that you cast on it while hidden from it, you may use your reaction to force the target to reroll the d20 and use the lower roll."
 	]
     },
@@ -274,6 +274,7 @@
 	  {
 			"name": "+1 Studded Leather",
 			"source": "ibp",
+			"baseItem": "studded leather|phb",
 			"srd": true,
 			"type": "LA",
 			"tier": "major",
