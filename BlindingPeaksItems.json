@@ -48,6 +48,30 @@
         "You learn the {@spell heroism} spell. Once per long rest, you may cast it without expending a spell slot. The spellcasting modifier for this spell is your choice of Intelligence, Wisdom or Charisma."
       ]
     },
+	  {
+      "name": "Runegem of Magical Ambush",
+      "baseItem": "runegem|ibp",
+      "source": "ibp",
+      "rarity": "uncommon",
+      "type": "RUNE",
+      "entries": [
+	"A stocky piece of obsidian, roughly resembling a feather in shape, inscribed with {@italic \"Darkmans Flash\"}, written in Common.",
+	"Apply to a spellcasting focus"
+	"Whenever a creature you can see within 60 feet of you succeeds on a saving throw against a spell that you cast on it while hidden from it, you may use your reaction to force the target to reroll the d20 and use the lower roll."
+	]
+    },
+	  {
+      "name": "Runegem of Lesser Ambush",
+      "baseItem": "runegem|ibp",
+      "source": "ibp",
+      "rarity": "common",
+      "type": "RUNE",
+      "entries": [
+	"A sleek, thin piece of platinum, inscribed with the text {@italic \"Curse the Moon and Hush\"} in elegant Common handwriting.",
+    	"Apply to a weapon",
+	"You have a +1 bonus to attack and damage rolls made with this weapon, while you are invisible or hidden from a creature when you attack it."
+	]
+    },
     {
       "name": "Runegem of Resistance",
       "baseItem": "runegem|ibp",
@@ -247,6 +271,22 @@
         "This item has two runegem slots."
       ]
     },
+	  {
+			"name": "+1 Studded Leather",
+			"source": "ibp",
+			"srd": true,
+			"type": "LA",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 13,
+			"ac": 12,
+			"bonusAc": "+1",
+			"entries": [
+				"You have a +1 bonus to AC while wearing this armor.",
+				"Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.",
+				"This item has two runegem slots."
+			],
+		},
     {
       "name": "Boots of Striding and Springing",
       "source": "ibp",
