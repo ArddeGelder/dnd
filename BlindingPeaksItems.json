@@ -389,6 +389,18 @@
       ]
     },
     {
+			"name": "Clothing, cold weather (basic)",
+			"source": "ibp",			
+			"type": "G",
+			"rarity": "none",
+			"weight": 5,
+			"value": 1000,
+			"entries": [
+				"This outfit consists of a fur coat or cloak over layers of wool clothing, as well as fur-lined leather boots and gloves and a nice scarf.",
+				"As long as cold weather clothing remains dry, its wearer has advantage on Constitution saving throws to resist the effects of exposure to cold weather."
+			]
+		},
+    {
       "name": "Drow Poison",
       "source": "ibp",
       "srd": true,
