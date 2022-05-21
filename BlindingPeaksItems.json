@@ -116,7 +116,7 @@
       "rarity": "common",
       "type": "RUNE",
       "entries": [
-        "A rectangular piece of white marble, with two runes that spell a word in Giant.",
+        "A rectangular piece of white marble, with two runes in Giant that translate to {@italic \"Too sensitive gets nowhere.\"}.",
         "Apply to a shield or armour.",
         "Piercing, slashing, and bludgeoning damage you take is reduced by 1."
       ]
