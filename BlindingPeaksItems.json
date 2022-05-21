@@ -48,29 +48,29 @@
         "You learn the {@spell heroism} spell. Once per long rest, you may cast it without expending a spell slot. The spellcasting modifier for this spell is your choice of Intelligence, Wisdom or Charisma."
       ]
     },
-	  {
+    {
       "name": "Runegem of Magical Ambush",
       "baseItem": "runegem|ibp",
       "source": "ibp",
       "rarity": "uncommon",
       "type": "RUNE",
       "entries": [
-	"A stocky piece of obsidian, roughly resembling a feather in shape, inscribed with {@italic \"Darkmans Flash\"}, written in Common.",
-	"Apply to a spellcasting focus",
-	"Whenever a creature you can see within 60 feet of you succeeds on a saving throw against a spell that you cast on it while hidden from it, you may use your reaction to force the target to reroll the d20 and use the lower roll."
-	]
+        "A stocky piece of obsidian, roughly resembling a feather in shape, inscribed with {@italic \"Darkmans Flash\"}, written in Common.",
+        "Apply to a spellcasting focus",
+        "Whenever a creature you can see within 60 feet of you succeeds on a saving throw against a spell that you cast on it while hidden from it, you may use your reaction to force the target to reroll the d20 and use the lower roll."
+      ]
     },
-	  {
+    {
       "name": "Lesser Runegem of Ambush",
       "baseItem": "runegem|ibp",
       "source": "ibp",
       "rarity": "common",
       "type": "RUNE",
       "entries": [
-	"A sleek, thin piece of platinum, inscribed with the text {@italic \"Curse the Moon and Hush\"} in elegant Common handwriting.",
-    	"Apply to a weapon",
-	"You have a +1 bonus to attack and damage rolls made with this weapon, while you are invisible or hidden from a creature when you attack it."
-	]
+        "A sleek, thin piece of platinum, inscribed with the text {@italic \"Curse the Moon and Hush\"} in elegant Common handwriting.",
+        "Apply to a weapon",
+        "You have a +1 bonus to attack and damage rolls made with this weapon, while you are invisible or hidden from a creature when you attack it."
+      ]
     },
     {
       "name": "Runegem of Resistance",
@@ -218,6 +218,30 @@
       ]
     },
     {
+      "name": "+1 Shortbow",
+      "source": "ibp",
+      "baseItem": "shortbow|PHB",
+      "type": "R",
+      "rarity": "uncommon",
+      "reqAttune": true,
+      "weight": 2,
+      "weaponCategory": "simple",
+      "property": [
+        "A",
+        "2H"
+      ],
+      "range": "80/320",
+      "dmg1": "1d6",
+      "dmgType": "P",
+      "bonusWeapon": "+1",
+      "weapon": true,
+      "entries": [
+        "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+        "This item has two runegem slots."
+      ],
+      "ammoType": "arrow|phb"
+    },
+    {
       "name": "+1 Shield",
       "source": "ibp",
       "baseItem": "shield|PHB",
@@ -271,45 +295,45 @@
         "This item has two runegem slots."
       ]
     },
-	  {
-			"name": "+1 Studded Leather",
-			"source": "ibp",
-			"baseItem": "studded leather|phb",
-			"srd": true,
-			"type": "LA",
-			"tier": "major",
-			"rarity": "rare",
-			"weight": 13,
-			"ac": 12,
-			"bonusAc": "+1",
-			"entries": [
-				"You have a +1 bonus to AC while wearing this armor.",
-				"Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.",
-				"This item has two runegem slots."
-			]
-		},
-	  { "name": "Cloak of Protection (Cursed)",
-			"source": "ibp",	   		
-			"rarity": "uncommon",
-			"reqAttune": true,
-			"wondrous": true,
-			"curse": true,
-			"weight": 1,
-	   "bonusAc": "+1",
-	   "bonusSavingThrow": "+1",
-			"entries": [
-	   		"You gain a +1 bonus to AC and saving throws while you wear this cloak.",				
-				{
-					"type": "entries",
-					"name": "Curse",
-					"entries": [
-						"This cloak is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the cloak, keeping it within reach at all times.",
-	   					"..." 
-					]
-				}				
-			]
-	  },
-	  
+    {
+      "name": "+1 Studded Leather",
+      "source": "ibp",
+      "baseItem": "studded leather|phb",
+      "srd": true,
+      "type": "LA",
+      "tier": "major",
+      "rarity": "rare",
+      "weight": 13,
+      "ac": 12,
+      "bonusAc": "+1",
+      "entries": [
+        "You have a +1 bonus to AC while wearing this armor.",
+        "Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.",
+        "This item has two runegem slots."
+      ]
+    },
+    {
+      "name": "Cloak of Protection (Cursed)",
+      "source": "ibp",
+      "rarity": "uncommon",
+      "reqAttune": true,
+      "wondrous": true,
+      "curse": true,
+      "weight": 1,
+      "bonusAc": "+1",
+      "bonusSavingThrow": "+1",
+      "entries": [
+        "You gain a +1 bonus to AC and saving throws while you wear this cloak.",
+        {
+          "type": "entries",
+          "name": "Curse",
+          "entries": [
+            "This cloak is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the cloak, keeping it within reach at all times.",
+            "..."
+          ]
+        }
+      ]
+    },
     {
       "name": "Boots of Striding and Springing",
       "source": "ibp",
@@ -365,20 +389,20 @@
       ]
     },
     {
-			"name": "Drow Poison",
-			"source": "ibp",
-			"srd": true,
-			"type": "G",
-			"rarity": "none",
-			"value": 20000,
-			"poison": true,
-			"entries": [
-				"This poison is typically made only by the {@creature drow}, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the creature is also {@condition unconscious} while {@condition poisoned} in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
-			],
-			"poisonTypes": [
-				"injury"
-			]
-		},
+      "name": "Drow Poison",
+      "source": "ibp",
+      "srd": true,
+      "type": "G",
+      "rarity": "none",
+      "value": 20000,
+      "poison": true,
+      "entries": [
+        "This poison is typically made only by the {@creature drow}, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the creature is also {@condition unconscious} while {@condition poisoned} in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
+      ],
+      "poisonTypes": [
+        "injury"
+      ]
+    },
     {
       "name": "Hourglass of Souls",
       "source": "ibp",
