@@ -145,6 +145,30 @@
         "Once per short rest, as an action, you may summon a momentary circle of spectral weapons that sweep around you. All creatures within 10 feet of you must succeed on a Dexterity saving throw, or take force damage equal to one roll of the damage die of this weapon."
       ]
     },
+	  {
+      "name": "Runegem of Blood Magic",
+      "baseItem": "Runegem|ibp",
+      "source": "ibp",
+      "rarity": "rare",
+      "type": "RUNE",
+      "entries": [
+        "A rough piece of red hematite, covered in a lattice of white linework.",
+        "Apply to a spellcasting focus",
+        "Whenever you expend a spell slot, you may expend a hit die. If you do, treat the expended spell slot as if it were 1 level higher, up to the maximum level of spell you can cast. You do not regain any hit points when expending a hit die in this way."
+      ]
+    },
+     {
+      "name": "Runegem of Life Transfer",
+      "baseItem": "Runegem|ibp",
+      "source": "ibp",
+      "rarity": "uncommon",
+      "type": "RUNE",
+      "entries": [
+        "A smooth round white howlite gemstone, with an inscription in Dwarvish that reads {@italic \"Break with one hand. Build with the other.\"}",
+        "Apply to a weapon",
+        "Once per long rest, when you hit a creature with an attack, you may choose a creature that you can see within 10 feet of the target. That creature regains hit points equal to half the damage dealt by the attack. "
+      ]
+    },
     {
       "name": "Spellknife",
       "source": "ibp",
@@ -232,6 +256,31 @@
       ],
       "range": "80/320",
       "dmg1": "1d6",
+      "dmgType": "P",
+      "bonusWeapon": "+1",
+      "weapon": true,
+      "entries": [
+        "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+        "This item has two runegem slots."
+      ],
+      "ammoType": "arrow|phb"
+    },
+	   {
+      "name": "+1 Longbow",
+      "source": "ibp",
+      "baseItem": "longbow|PHB",
+      "type": "R",
+      "rarity": "uncommon",
+      "reqAttune": true,
+      "weight": 2,
+      "weaponCategory": "martial",
+      "property": [
+        "A",
+        "2H",
+	"H"
+      ],
+      "range": "150/600",
+      "dmg1": "1d8",
       "dmgType": "P",
       "bonusWeapon": "+1",
       "weapon": true,
@@ -334,6 +383,18 @@
         }
       ]
     },
+	  {
+			"name": "Potion of Vitality",
+			"source": "ibp",
+			"page": 188,
+			"basicRules": true,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "very rare",
+			"entries": [
+				"When you drink this potion, it removes any {@condition exhaustion} you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat."
+			]
+		},
     {
       "name": "Boots of Striding and Springing",
       "source": "ibp",
