@@ -361,6 +361,23 @@
         "This item has two runegem slots."
       ]
     },
+        {
+      "name": "+1 Breastplate",
+      "source": "ibp",
+      "baseItem": "breastplate|phb",
+      "srd": true,
+      "type": "MA",
+      "tier": "major",
+      "rarity": "rare",
+      "weight": 20,
+      "ac": 14,
+      "bonusAc": "+1",
+      "entries": [
+        "You have a +1 bonus to AC while wearing this armor.",
+        "This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.",
+        "This item has two runegem slots."
+      ]
+    },
     {
       "name": "Cloak of Protection (Cursed)",
       "source": "ibp",
@@ -411,6 +428,23 @@
       },
       "entries": [
         "While you wear these boots, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn't reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can't jump farther than your remaining movement would allow."
+      ]
+    },
+     {
+      "name": "Sallet of the Fraying Mind",
+      "source": "ibp",
+      "tier": "major",
+      "rarity": "very rare",
+      "reqAttune": true,
+      "wondrous": true,
+      "bonusAc": "+1",      
+      "entries": [
+        "This light visorless helmet is decorated with a dense network of curved gilded copper lines, vaguely resembling the ouline of a humanoid brain. The spongelike padding is comfortably soft, though always slightly cold and damp.",
+"Anyone wearing this helmet feels their mental faculties and awareness sharpen, and hears a softly droning static noise that seems to be originating from within their own head.",
+"While wearing this helmet, you gain a +1 to AC if you aren't wearing heavy armor, and have advantage on initiative rolls. In addition, while wearing this helmet, you cannot be surprised, provided you are not incapacitated.",
+        "Additionally, as an action you can cast the {@spell Message} cantrip.",
+"Whenever you deal psychic damage to a creature, you may force it to subtract 1d4 from the next saving throw it makes before the end of your next turn. If this turns a successful save into a failed save, you can't use this feature again until you finish a short or long rest.",
+"While attuned to this helmet, you have disadvantage on Intelligence saving throws."
       ]
     },
     {
