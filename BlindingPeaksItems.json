@@ -480,8 +480,8 @@
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
-				"This bulbous maroon brown seed seems to be constantly  undulating softly.",
-              "You can use an action to throw the seed up to 20 feet. The seed has 13 AC and 10 hit points. At the start of your next turn, the seed transforms into a {@creature Assassin Vine}. The Vine vanishes at the next dawn or when it is reduced to 0 hit points.",
+				"This bulbous maroon brown seed seems to be constantly undulating softly.",
+              "You can use an action to throw the seed up to 20 feet. The seed has 13 AC and 10 hit points. At the start of your next turn, the seed transforms into an {@creature Assassin Vine|TOA}. The Vine vanishes at the next dawn or when it is reduced to 0 hit points.",
 				"The Vine is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature."
 			]
 		},
