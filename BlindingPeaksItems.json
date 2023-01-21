@@ -5,7 +5,7 @@
         "json": "ibp",
         "abbreviation": "IBP",
         "full": "Items From The Blinding Peaks",
-        "version": "1.1.3",
+        "version": "1.1.4",
         "url": "https://docs.google.com/document/d/1BvKTaNgjQl3S2Vu-53LYxcqYlHNVJAnl5d2y2SLuQwE/edit",
         "color": "EFFFF7",
         "authors": [
@@ -17,7 +17,7 @@
       }
     ],
     "dateAdded": 1586966344,
-    "dateLastModified": 1642454931
+    "dateLastModified": 1674299066
   },
   "baseitem": [
     {
@@ -459,6 +459,20 @@
         "While wearing these dark lenses, you have {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision}, wearing the goggles increases its range by 60 feet."
       ]
     },
+    {
+			"name": "Gloves of Swimming and Climbing",
+			"source": "DMG",
+			"page": 172,
+			"srd": true,
+			"basicRules": true,
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength ({@skill Athletics}) checks made to climb or swim."
+			]
+		},
     {
       "name": "Refurbished Drow Poison Arrow",
       "source": "ibp",
