@@ -235,6 +235,18 @@
       ]
     },
     {
+      "name": "Runegem of the Field Medic",
+      "baseItem": "Runegem|ibp",
+      "source": "ibp",
+      "rarity": "uncommon",
+      "type": "RUNE",
+      "entries": [
+        "An octagonal slice of white marble, crossed with a tangle of red lines resembling a '+' symbol.",
+        "Apply to a shield or armour.",
+        "While you are within 5 feet of an incapacitated ally, you have +1 AC, and a +1 bonus to all saving throws, attack rolls and damage rolls."
+      ]
+    },
+    {
       "name": "Spellknife",
       "source": "ibp",
       "baseItem": "dagger|PHB",
