@@ -247,6 +247,18 @@
       ]
     },
     {
+      "name": "Runegem of Shelter",
+      "baseItem": "Runegem|ibp",
+      "source": "ibp",
+      "rarity": "uncommon",
+      "type": "RUNE",
+      "entries": [
+        "A hemisphere of deep orange amber, with a miniscule beetle fossilized inside of it. A text in Old Halfling is engraved in deep blue lines, {@italic \"Even the sharpest knives become dull; troubles pass.\"}",
+        "Apply to a shield or armour.",
+        "Once per long rest, use a bonus action to create an immoving protective barrier in a 10 foot radius around you. Until the end of your next turn, you and any allied creatures within the barrier have resistance to all damage."
+      ]
+    },
+    {
       "name": "Spellknife",
       "source": "ibp",
       "baseItem": "dagger|PHB",
