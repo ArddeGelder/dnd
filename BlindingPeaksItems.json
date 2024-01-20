@@ -176,7 +176,7 @@
       "rarity": "very rare",
       "type": "RUNE",
       "entries": [
-        "A smooth round white howlite gemstone, with an inscription in Dwarvish that reads {@italic \"Break with one hand. Build with the other.\"}",
+        "A strangely curved piece of quartz, refracting light into many different hues. All over the surface are tiny etchings of Escher-like creatures morphing between bees, fish, birds, salamanders and other lifeforms.",
         "Apply to a melee weapon",
         "When you attack a creature with this magic weapon and roll a 20 on the attack roll, the creature must make a Wisdom saving throw in addition to suffering the attack's normal effects. On a failed save, the creature also suffers the effects of a {@spell polymorph} spell. Roll a d20 and consult the following table to determine the form the target creature is transformed into.",
         {
