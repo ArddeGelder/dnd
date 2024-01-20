@@ -5,7 +5,7 @@
         "json": "ibp",
         "abbreviation": "IBP",
         "full": "Items From The Blinding Peaks",
-        "version": "1.2.0",
+        "version": "1.2.1",
         "url": "https://docs.google.com/document/d/1BvKTaNgjQl3S2Vu-53LYxcqYlHNVJAnl5d2y2SLuQwE/edit",
         "color": "EFFFF7",
         "authors": [
@@ -17,7 +17,7 @@
       }
     ],
     "dateAdded": 1586966344,
-    "dateLastModified": 1705745653
+    "dateLastModified": 1705750147
   },
   "baseitem": [
     {
