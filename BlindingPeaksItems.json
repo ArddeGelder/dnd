@@ -747,6 +747,34 @@
 				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.",
 				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
 			]
+		},
+    {
+			"name": "Quiver of Ehlonna",
+			"source": "ibp",			
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"weight": 2,
+			"entries": [
+				"Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to sixty {@item arrow|phb|arrows}, {@item crossbow bolt|phb|bolts}, or similar objects. The midsize compartment holds up to eighteen {@item javelin|phb|javelins} or similar objects. The longest compartment holds up to six long objects, such as bows, {@item quarterstaff|phb|quarterstaffs}, or {@item spear|phb|spears}.",
+				"You can draw any item the quiver contains as if doing so from a regular quiver or scabbard."
+			],
+			"containerCapacity": {
+				"item": [
+					{
+						"crossbow bolt|phb": 60,
+						"arrow|phb": 60
+					},
+					{
+						"javelin|phb": 18
+					},
+					{
+						"quarterstaff|phb": 6,
+						"spear|phb": 6
+					}
+				],
+				"weightless": true
+			}
 		}
   ],
   "itemType": [
