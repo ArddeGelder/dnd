@@ -483,8 +483,17 @@
           "type": "entries",
           "name": "Curse",
           "entries": [
-            "This cloak is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the cloak, keeping it within reach at all times.",
-            "..."
+            "This cloak is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the cloak, keeping it within reach at all times."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Bloodlust",
+          "entries": [            
+            "After each combat, if you reduced any creatures to 0 hit points during this combat, make a Charisma saving throw. The DC is (...)",
+            "On a success, add a charge to this item for every creature you reduced to 0 hit points. This item currently has 13 charges.",
+            "On a failure... well. Better to not fail.",
+            "Additionally, (...)"
           ]
         }
       ]
