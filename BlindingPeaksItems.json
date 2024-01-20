@@ -547,7 +547,87 @@
         "This beautiful hourglass is filled with fine grains of residuum.",
         "It is used to trap the souls of the Duergar of Karakzahar in time, but that magic has been broken."
       ]
-    }
+    },
+    {
+			"name": "Watchful Helm",
+			"source": "ibp",			
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"bonusAc": "+1",
+			"entries": [
+				"While you wear this helm, you gain a +1 bonus to AC and remain aware of your surroundings even while you're asleep, and you have advantage on Wisdom ({@skill Perception}) checks that rely on sight.",
+				"As a bonus action, you can cast the {@spell see invisibility} spell from the helm. Once this property of the helm is used, it can't be used again until the next dawn."
+			],
+			"attachedSpells": [
+				"see invisibility"
+			]
+		},
+    {
+			"name": "Bracers of Archery",
+			"source": "ibp",
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"grantsProficiency": true,
+			"bonusWeaponDamage": "+2",
+			"entries": [
+				"While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons."
+			]
+		},
+    {
+			"name": "Horn of Silent Alarm",
+			"source": "ibp",			
+			"tier": "minor",
+			"rarity": "common",
+			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4}",
+			"charges": 4,
+			"entries": [
+				"This horn has 4 charges. When you use an action to blow it, one creature of your choice can hear the horn's blare, provided the creature is within 600 feet of the horn and not {@condition deafened}. No other creature hears sound coming from the horn. The horn regains {@dice 1d4} expended charges daily at dawn."
+			]
+		},
+    {
+			"name": "Horseshoes of a Zephyr",
+			"source": "ibp",
+			"tier": "minor",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above the ground. This effect means the creature can cross or stand above nonsolid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores {@quickref difficult terrain||3}. In addition, the creature can move at normal speed for up to 12 hours a day without suffering {@condition exhaustion} from a forced march."
+			]
+		},
+    {
+			"name": "Immovable Rod",
+			"source": "ibp",
+			"type": "RD",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 2,
+			"entries": [
+				"This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesn't move, even if it is defying gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success."
+			]
+		},
+    {
+			"name": "Butcher's Bib",
+			"source": "ibp",
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"critThreshold": 19,
+			"entries": [
+				"This black leather apron is perpetually covered by blood, even after being washed off. You gain the following benefits while wearing the apron:",
+				{
+					"type": "list",
+					"items": [
+						"Once per turn when you roll damage for a melee attack with a weapon, you can reroll the weapon's damage dice. If you do so, you must use the second total.",
+						"Your weapon attacks that deal slashing damage score a critical hit on a roll of 19 or 20 on the {@dice d20}."
+					]
+				}
+			]
+		}
   ],
   "itemType": [
     {
