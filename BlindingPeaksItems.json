@@ -170,6 +170,59 @@
       ]
     },
     {
+      "name": "Runegem of Polymorph",
+      "baseItem": "Runegem|ibp",
+      "source": "ibp",
+      "rarity": "very rare",
+      "type": "RUNE",
+      "entries": [
+        "A smooth round white howlite gemstone, with an inscription in Dwarvish that reads {@italic \"Break with one hand. Build with the other.\"}",
+        "Apply to a melee weapon",
+        "When you attack a creature with this magic weapon and roll a 20 on the attack roll, the creature must make a Wisdom saving throw in addition to suffering the attack's normal effects. On a failed save, the creature also suffers the effects of a {@spell polymorph} spell. Roll a d20 and consult the following table to determine the form the target creature is transformed into.",
+        {
+					"type": "table",					
+					"colLabels": [
+						"d20",
+						"New Form"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+            ["1", "{@creature Tyrannosaurus Rex}"],
+            ["2", "{@creature Giant Ape}"],
+            ["3", "{@creature Elephant}"],
+            ["4", "{@creature Giant Scorpion}"],
+            ["5", "{@creature Rhinoceros}"],
+            ["6", "{@creature Polar Bear}"],
+            ["7", "{@creature Giant Toad}"],
+            ["8", "{@creature Giant Eagle}"],
+            ["9", "{@creature Black Bear}"],
+            ["10", "{@creature Crocodile}"],
+            ["11", "{@creature Wolf}"],
+            ["12", "{@creature Horse}"],
+            ["13", "{@creature Ox}"],
+            ["14", "{@creature Giant Frog}"],
+            ["15", "{@creature Poisonous Snake}"],
+            ["16", "{@creature Hawk}"],
+            ["17", "{@creature Octopus}"],
+            ["18", "{@creature Cat}"],
+            ["19", "{@creature Rat}"],
+            ["20", "Rabbit"]            
+						]          
+          },
+          "A creature is immune to this effect if it is immune to damage of the weapon's type, is a shapechanger, or has legendary actions.",
+          {
+            "type": "entries",
+            "name": "Curse",
+            "entries": [
+              "This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unwilling to part with the weapon. Whenever you attack a creature with this weapon and roll a 1 on the attack roll, you suffer the effect of a {@spell polymorph} spell for 1 hour, rolling on the table to determine your new form."
+            ]
+          }
+      ]
+    },
+    {
       "name": "Spellknife",
       "source": "ibp",
       "baseItem": "dagger|PHB",
