@@ -223,6 +223,18 @@
       ]
     },
     {
+      "name": "Runegem of Searing Radiance",
+      "baseItem": "Runegem|ibp",
+      "source": "ibp",
+      "rarity": "rare",
+      "type": "RUNE",
+      "entries": [
+        "A flat, coin-like disk of white stone with an amber core. Along the outer edges are thin, golden markings in Celestial that read {@italic \"Fervent flames force fleeing furious foes\"}",
+        "Apply to a weapon",
+        "Once per long rest, as an action, you can emanate dazzling light in a 10-foot radius sphere centered on yourself until the end of your next turn, during which you have advantage on attack rolls and attack rolls against you have disadvantage. The sphere moves with you. When another creature starts its turn in the light or enters the light for the first time on its turn, that creature must make a Constitution saving throw, taking 4d8 radiant damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
       "name": "Spellknife",
       "source": "ibp",
       "baseItem": "dagger|PHB",
