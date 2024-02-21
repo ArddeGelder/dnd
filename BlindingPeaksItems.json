@@ -450,6 +450,30 @@
         "This item has two runegem slots."
       ]
     },
+    {
+      "name": "+1 Dreadful Studded Leather",
+      "source": "ibp",
+      "baseItem": "studded leather|phb",
+      "reqAttune": "by a bard",
+			"reqAttuneTags": [
+				{
+					"class": "bard"
+				}
+			],
+      "type": "LA",
+      "tier": "major",
+      "rarity": "very rare",
+      "weight": 13,
+      "ac": 12,
+      "bonusAc": "+1",
+      "entries": [
+        "This armor is made from tough but flexible leather and beset with close-set menacing metal spikes.",
+        "You have a +1 bonus to AC while wearing this armor.",
+        "When you are hit with an attack that is not a critical hit, you may use your reaction to attempt a Charisma (Intimidation) check. The DC equals the attack roll of the attack that hit you. On a success, the hit is turned into a miss. Once you turned a hit into a miss in this way, you can't use this feature again until you finish a long rest.",
+        "In addition, whenever you cause one or more creatures to be frightened, regain 1 of your expended uses of Bardic Inspiration.",        
+        "This item has one runegem slot."
+      ]
+    },
         {
       "name": "+1 Breastplate",
       "source": "ibp",
